@@ -6,12 +6,11 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
 
 
-
-
-	h1{ 
+h1{ 
 	font-size: 36px;
 	margin: 0;
  	}
+
 .container {
 	max-width: 1300px;
 	margin: 0 auto;
@@ -19,7 +18,10 @@ body {
 .header {
 	background-image: url(img/background.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 20px;
+	height: 100vh;
+	background-position: center center;
 }
 .header_nav {
 	display: flex;
@@ -64,9 +66,9 @@ body {
 	 font-weight: 600;
 	 font-size: 36px;
 	 flex-basis: 550px;
-	 margin-bottom: 50px;
+	 margin-bottom: 20px;
 }
-.header-content p {
+.subtitle2 {
 	color: #fff;
 	 font-weight: 400;
 	 font-size: 16px;
@@ -91,6 +93,8 @@ body {
 	color:#fff;
 	border-radius: 31px;
 	padding: 20px 25px;
+	z-index: 3;
+	position: relative;
 }
 
 .header-button:hover {
@@ -108,4 +112,20 @@ body {
 
 .vector {
 	margin-left: 225px;
+	z-index: 2;
+	position: relative;
+}
+
+.subtitle {
+	color: #B2B2B2;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.money-emoji {
+	width: 25px;
+	margin: 0 5px;
 }
