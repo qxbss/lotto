@@ -17,7 +17,7 @@ body {
 	margin: 0 auto;
 }
 .header {
-	background-image: url(background.jpg);
+	background-image: url(img/background.jpg);
 	background-repeat: no-repeat;
 	padding-top: 20px;
 }
