@@ -1,0 +1,131 @@
+body {
+	background: #141414;
+	font-family: "Montserrat Alternates", sans-serif;
+	}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
+
+
+h1{ 
+	font-size: 36px;
+	margin: 0;
+ 	}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.header {
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	height: 100vh;
+	background-position: center center;
+}
+.header_nav {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 30px;
+}
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header_list {
+	list-style-type: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+}
+ 
+.header_link {
+	color: #fff;
+	text-decoration: none;
+}
+.header-link-background {
+	background: #4504D9;
+	border-radius: 21px;
+	padding: 10px 50px;
+}
+.header-link-background:hover {
+	background: #4013A6;
+	transition: 0.5s
+}
+
+.header-content {
+	color: #fff;
+	 font-weight: 600;
+	 font-size: 36px;
+	 flex-basis: 550px;
+	 margin-bottom: 20px;
+}
+.subtitle2 {
+	color: #fff;
+	 font-weight: 400;
+	 font-size: 16px;
+	 max-width: 550px;
+	padding: 25px 0;
+    margin: 0;
+
+
+}
+.header-row {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+	align-items: center;
+}
+
+
+.header-button {
+	font-size: 16px;
+	background: #4504D9;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 31px;
+	padding: 20px 25px;
+	z-index: 3;
+	position: relative;
+}
+
+.header-button:hover {
+	background: #4013A6;
+	transition: 0.5s
+}
+
+.header-imgg {
+	flex-basis: calc(100% - 550px - 180px);
+}
+
+.header-img {
+	width: 100%;
+}
+
+.vector {
+	margin-left: 225px;
+	z-index: 2;
+	position: relative;
+}
+
+.subtitle {
+	color: #B2B2B2;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.money-emoji {
+	width: 25px;
+	margin: 0 5px;
+}
